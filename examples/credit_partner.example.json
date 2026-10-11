@@ -1,0 +1,22 @@
+{
+  "name": "Example Partner",
+  "scores": {
+    "architecture_fit": 8,
+    "funding_fit": 7,
+    "risk_fit": 8,
+    "product_fit": 7,
+    "integration_fit": 9,
+    "commercial_fit": 6,
+    "regulatory_fit": 8,
+    "servicing_fit": 7,
+    "data_fit": 8,
+    "pilot_fit": 8
+  },
+  "gates": {
+    "supports_multilayer_distribution": "VERIFIED_PUBLIC",
+    "funding_source_confirmed": "UNKNOWN",
+    "credit_risk_owner_confirmed": "UNKNOWN",
+    "servicing_owner_confirmed": "UNKNOWN",
+    "regulatory_roles_confirmed": "UNKNOWN"
+  }
+}

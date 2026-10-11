@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ballast Embedded Credit Economics",
+  "type": "object",
+  "required": ["active_merchants", "eligible_quotes_per_merchant_month", "application_rate", "approval_rate", "funding_rate", "average_financed_ticket", "ballast_take_rate", "fixed_monthly_cost"],
+  "properties": {
+    "active_merchants": {"type": "number", "minimum": 0},
+    "eligible_quotes_per_merchant_month": {"type": "number", "minimum": 0},
+    "application_rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "approval_rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "funding_rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "average_financed_ticket": {"type": "number", "minimum": 0},
+    "ballast_take_rate": {"type": "number", "minimum": 0},
+    "monthly_fee_per_merchant": {"type": "number", "minimum": 0},
+    "variable_cost_rate": {"type": "number", "minimum": 0},
+    "variable_cost_per_application": {"type": "number", "minimum": 0},
+    "fixed_monthly_cost": {"type": "number", "minimum": 0}
+  }
+}

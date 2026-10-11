@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ballast Merchant Lead",
+  "type": "object",
+  "required": ["company", "scores", "evidence"],
+  "properties": {
+    "company": {"type": "string"},
+    "scores": {
+      "type": "object",
+      "required": ["ticket_need", "class_ab_fit", "scale", "decision_access", "financing_gap", "operational_fit"],
+      "properties": {
+        "ticket_need": {"type": "number", "minimum": 0, "maximum": 10},
+        "class_ab_fit": {"type": "number", "minimum": 0, "maximum": 10},
+        "scale": {"type": "number", "minimum": 0, "maximum": 10},
+        "decision_access": {"type": "number", "minimum": 0, "maximum": 10},
+        "financing_gap": {"type": "number", "minimum": 0, "maximum": 10},
+        "operational_fit": {"type": "number", "minimum": 0, "maximum": 10}
+      }
+    },
+    "evidence": {"type": "object"}
+  }
+}

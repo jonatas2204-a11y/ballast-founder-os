@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ballast Credit Partner",
+  "type": "object",
+  "required": ["name", "scores", "gates"],
+  "properties": {
+    "name": {"type": "string"},
+    "scores": {
+      "type": "object",
+      "additionalProperties": {"type": "number", "minimum": 0, "maximum": 10}
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": {"enum": ["VERIFIED_PUBLIC", "USER_PROVIDED", "ESTIMATE", "ASSUMPTION", "UNKNOWN"]}
+    }
+  }
+}

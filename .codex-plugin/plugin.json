@@ -1,0 +1,11 @@
+{
+  "name": "ballast-founder-os",
+  "version": "0.1.0",
+  "description": "Evidence-first founder operating system for Ballast.",
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

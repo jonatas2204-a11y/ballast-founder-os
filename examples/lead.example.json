@@ -1,0 +1,16 @@
+{
+  "company": "Example Interiors",
+  "scores": {
+    "ticket_need": 9,
+    "class_ab_fit": 8,
+    "scale": 7,
+    "decision_access": 7,
+    "financing_gap": 8,
+    "operational_fit": 9
+  },
+  "evidence": {
+    "location": "VERIFIED_PUBLIC",
+    "contact": "VERIFIED_PUBLIC",
+    "financing_status": "UNKNOWN"
+  }
+}

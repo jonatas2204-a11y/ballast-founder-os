@@ -1,0 +1,13 @@
+{
+  "active_merchants": 40,
+  "eligible_quotes_per_merchant_month": 18,
+  "application_rate": 0.32,
+  "approval_rate": 0.58,
+  "funding_rate": 0.90,
+  "average_financed_ticket": 15000,
+  "ballast_take_rate": 0.022,
+  "monthly_fee_per_merchant": 399,
+  "variable_cost_rate": 0.002,
+  "variable_cost_per_application": 6,
+  "fixed_monthly_cost": 90000
+}
